@@ -1,0 +1,42 @@
+# =========================================
+# 👑 Global fallback (Sr DevOps owns all)
+# =========================================
+*                                   @rafiqulislamORG/devops
+
+# =========================================
+# ⚙️ DevOps / Infrastructure
+# =========================================
+/front-end/Dockerfile               @rafiqulislamORG/devops @rafiqulislamORG/devops
+docker-compose.yml                  @rafiqulislamORG/devops @rafiqulislamORG/devops
+
+.github/*                           @rafiqulislamORG/devops @rafiqulislamORG/devops
+
+k8s/*                               @rafiqulislamORG/devops @rafiqulislamORG/devops
+
+
+backend/                            @rafiqulislamORG/dev-team
+api/                                @rafiqulislamORG/dev-team
+server/                             @rafiqulislamORG/dev-team
+
+
+# =========================================
+# 👨‍💻 Dev Team (Application Layer)
+# =========================================
+src/*                               @rafiqulislamORG/dev-team
+
+
+# =========================================
+# 🔐 Sensitive Config (Sr DevOps only)
+# =========================================
+.env                                @rafiqulislamORG/devops
+.env.*                              @rafiqulislamORG/devops
+config/                             @rafiqulislamORG/devops
+
+package.json                        @rafiqulislamORG/devops
+package-lock.json                   @rafiqulislamORG/devops
+requirements.txt                    @rafiqulislamORG/devops
+
+# =========================================
+# 📜 Automation & Build
+# =========================================
+Makefile                            @rafiqulislamORG/devops @rafiqulislamORG/devops
