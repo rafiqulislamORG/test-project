@@ -1,2 +1,2 @@
 hello
-I'm rafiq
+I'm rafiq. I'm testing branch protection rules.
